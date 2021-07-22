@@ -3,7 +3,7 @@
 <li>do not put on a working machine</li>
 <li>tested on ubunto</li>
 <li>1.make sure you have GIT HUB software installed, if not, then on the command line:</li>
-<li>	apt install git -y</li>
+<li>sudo apt install git -y</li>
 <li>2.download the software repository:</li>
 <li>	https://github.com/k10ndaik/chiaLottery.git</li>
 <li>3.run the bash file in the terminal</li>
