@@ -1,5 +1,6 @@
 
 <ul>
+<li>do not put on a working machine</li>
 <li>tested on ubunto</li>
 <li>1.make sure you have GIT HUB software installed, if not, then on the command line:</li>
 <li>	apt install git -y</li>
