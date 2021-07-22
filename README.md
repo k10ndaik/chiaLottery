@@ -8,6 +8,7 @@
 <li>git clone https://github.com/k10ndaik/chiaLottery.git</li>
 <li>3.run the bash file in the terminal</li>
 <li>	./install.sh</li>
+<li> #chromium installation stage a few minutes</li>
 <li>4.start </li>
 <li>	python3 start.py</li>
 <li>5.send a penny to support xch12k0slafjsmtcarpp2t4d7ga2ywv6rxleggskf00v80qk5puh55psa4nxak</li>
