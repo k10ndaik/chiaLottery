@@ -42,16 +42,16 @@ def web (wallet):
     requiredHtml = browser.page_source
     testWord = 'class="bg-404'
     if testWord in requiredHtml:
-        return("НЕ РАБОЧИЙ")
+        return("not_working")
     else:
-        return("РАБОЧИЙ")
+        return("working")
 #проверка кошелька
 
 def allLog(mnemonic,wallet,valid):
     log_file = open('logChiaHak.txt', 'a')
     log_file.write('\n' + mnemonic + '\n' + wallet + '\n' + valid)
     log_file.close()
-    if valid == "РАБОЧИЙ":
+    if valid == "working":
         log_file = open('validWallet.txt', 'a')
         log_file.write('\n' + mnemonic + '\n' + wallet + '\n' + valid)
         log_file.close()
@@ -59,10 +59,10 @@ def allLog(mnemonic,wallet,valid):
 
 def workHackChia():
     mnemonicWord = generationMnemonics()
-    print("сгенерированая мнемоника \n"+mnemonicWord)
+    print("generated mnemonics \n"+mnemonicWord)
     keyInput(mnemonicWord)
     wallet = walletKey().split()[29]
-    print("\nкошелек\n" + wallet)
+    print("\nwallet\n" + wallet)
     valid = web(wallet)
     print(valid)
     allLog(mnemonicWord, wallet, valid)
