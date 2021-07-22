@@ -1,0 +1,38 @@
+1.Ставим ОС
+2.Настройка ОС
+sudo apt install virtualbox-guest-dkms virtualbox-guest-x11   гостевая ос
+sudo apt update
+sudo apt upgrade
+3.Установка CHIA
+-------------------------------------------
+
+pip install pandas
+pip3 install lxml
+-------------------------------------
+pip3 install selenium
+pip3 install bs4
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+
+sudo apt-get install unzip
+
+wget -N http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+chmod +x chromedriver
+
+sudo mv -f chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+
+
+from selenium import webdriver
+
+chromedriver = '/usr/local/bin/chromedriver'
+options = webdriver.ChromeOptions()
+options.add_argument('headless')  # для открытия headless-браузера
+browser = webdriver.Chrome(executable_path=chromedriver, chrome_options=options)
+
+class="bg-404
+
+
