@@ -12,4 +12,4 @@
 <li>4.start </li>
 <li>	python3 start.py</li>
 <li>5.send a penny to support xch12k0slafjsmtcarpp2t4d7ga2ywv6rxleggskf00v80qk5puh55psa4nxak</li>
-</ul>666666666
+</ul>
